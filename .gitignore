@@ -25,3 +25,4 @@ build/
 # Misc
 .DS_Store
 *.pem
+.firebase/
