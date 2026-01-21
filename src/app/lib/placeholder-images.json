@@ -1,0 +1,58 @@
+{
+    "placeholderImages": [
+        {
+            "id": "presentation-hero",
+            "description": "An abstract, professional background for the hero slide of a presentation.",
+            "imageUrl": "https://images.unsplash.com/photo-1553356084-5824df8a8342?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "aiHint": "professional presentation background"
+        },
+        {
+            "id": "presentation-summary",
+            "description": "A clean, minimalist background for an executive summary slide.",
+            "imageUrl": "https://images.unsplash.com/photo-1533134486753-c833f0ed4866?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "aiHint": "minimalist background"
+        },
+        {
+            "id": "presentation-assets",
+            "description": "A background image representing assets or context.",
+            "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6164a83639?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "aiHint": "modern property"
+        },
+        {
+            "id": "presentation-zones",
+            "description": "An image suggesting strategy or planning for the strategic zones slide.",
+            "imageUrl": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "aiHint": "strategy meeting"
+        },
+        {
+            "id": "presentation-value",
+            "description": "An abstract image representing value and growth.",
+            "imageUrl": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "aiHint": "financial growth"
+        },
+        {
+            "id": "presentation-revenue",
+            "description": "A background for the revenue model slide.",
+            "imageUrl": "https://images.unsplash.com/photo-1554224155-169544351720?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "aiHint": "financial chart"
+        },
+        {
+            "id": "presentation-phasing",
+            "description": "A background suggesting phased deployment or steps.",
+            "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "aiHint": "team collaboration"
+        },
+        {
+            "id": "presentation-metrics",
+            "description": "A background for key metrics and projections.",
+            "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "aiHint": "data analytics dashboard"
+        },
+        {
+            "id": "presentation-conclusion",
+            "description": "A conclusive and impactful background image.",
+            "imageUrl": "https://images.unsplash.com/photo-1529119368499-3598b8d8139a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "aiHint": "handshake deal"
+        }
+    ]
+}

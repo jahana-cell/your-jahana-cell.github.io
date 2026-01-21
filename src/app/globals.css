@@ -1,0 +1,100 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* purgecss end ignore */
+
+@layer base {
+  :root {
+    /* "Creamy Luxury" Palette */
+    --cream-base: 40 33% 96%; /* #F9F7F2 (Whipped Vanilla) */
+    --cream-dark: 40 27% 93%; /* #F2EFE9 (Cashmere Beige) */
+    --cream-text: 40 24% 91%; /* #E8E4D9 (Silk White) */
+    
+    --truffle-dark: 30 5% 23%; /* #3E3B36 (Deep Truffle) */
+    --gold-accent: 45 56% 65%; /* #D4AF37 (Aged Brass) */
+
+    /* ShadCN Theme Variables */
+    --background: var(--cream-base);
+    --foreground: var(--truffle-dark);
+    --card: var(--cream-base); /* Cards same as bg, rely on border/shadow */
+    --card-foreground: var(--truffle-dark);
+    --popover: var(--cream-base);
+    --popover-foreground: var(--truffle-dark);
+    --primary: var(--truffle-dark);
+    --primary-foreground: var(--cream-text);
+    --secondary: var(--cream-dark);
+    --secondary-foreground: var(--truffle-dark);
+    --muted: var(--cream-dark);
+    --muted-foreground: 30 5% 45%;
+    --accent: var(--gold-accent);
+    --accent-foreground: var(--truffle-dark);
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 30 5% 23% / 0.1; /* Faint Truffle Border */
+    --input: var(--cream-dark);
+    --ring: var(--gold-accent);
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    /* A basic dark theme, can be refined later */
+    --background: 30 5% 10%; /* Darker Truffle */
+    --foreground: 40 33% 96%; /* Whipped Vanilla */
+    --card: 30 5% 15%;
+    --card-foreground: 40 33% 96%;
+    --popover: 30 5% 10%;
+    --popover-foreground: 40 33% 96%;
+    --primary: var(--gold-accent);
+    --primary-foreground: var(--truffle-dark);
+    --secondary: 30 5% 20%;
+    --secondary-foreground: 40 33% 90%;
+    --muted: 30 5% 20%;
+    --muted-foreground: 40 33% 70%;
+    --accent: var(--gold-accent);
+    --accent-foreground: 30 5% 10%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 40 33% 96% / 0.1;
+    --input: 30 5% 20%;
+    --ring: var(--gold-accent);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    -webkit-tap-highlight-color: transparent;
+  }
+  html, body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+  ::selection {
+    background: hsl(var(--gold-accent));
+    color: hsl(var(--cream-base));
+  }
+  input, textarea, select, button {
+    background-color: transparent;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@layer components {
+    .animate-cart-shake {
+        animation: cart-shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    }
+}
+
+@keyframes cart-shake {
+  10%, 90% { transform: translate3d(-1px, 0, 0); }
+  20%, 80% { transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
+  40%, 60% { transform: translate3d(4px, 0, 0); }
+}

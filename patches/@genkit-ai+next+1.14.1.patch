@@ -1,0 +1,23 @@
+diff --git a/node_modules/@genkit-ai/next/dist/index.mjs b/node_modules/@genkit-ai/next/dist/index.mjs
+index 723467b..5443c2f 100644
+--- a/node_modules/@genkit-ai/next/dist/index.mjs
++++ b/node_modules/@genkit-ai/next/dist/index.mjs
+@@ -37,6 +37,9 @@
+         return;
+     }
+     const { dev } = await import('genkit/dev');
++    if (globalThis.genkitDevProcess) {
++        return;
++    }
+     const proc = dev({
+         config: options.config,
+         plugins: options.plugins,
+@@ -47,6 +50,7 @@
+         },
+         ...options.devOptions,
+     });
++    globalThis.genkitDevProcess = proc;
+ }
+ /**
+  * Defines a Genkit Action for use in a Next.js application.
+
